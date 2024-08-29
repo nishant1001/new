@@ -1,33 +1,3 @@
-// // index.js
-// const express = require('express');
-// const multer = require('multer');
-// const path = require('path');
-// const { processImages } = require('./imageProcessor');
-
-// const app = express();
-// const PORT = 3000;
-
-// const upload = multer({ dest: 'uploads/' });
-
-// app.use(express.json());
-
-// app.post('/upload-csv', upload.single('file'), async (req, res) => {
-//     const csvFilePath = req.file.path;
-//     console.log(`Received CSV file: ${csvFilePath}`);
-    
-//     try {
-//         await processImages(csvFilePath);
-//         res.send('CSV processed successfully');
-//     } catch (error) {
-//         console.error(`Error processing CSV: ${error.message}`);
-//         res.status(500).send('Error processing CSV');
-//     }
-// });
-
-// app.listen(PORT, () => {
-//     console.log(`Server is running on port ${PORT}`);
-// });
-
 const express = require('express');
 const multer = require('multer');
 const fs = require('fs');

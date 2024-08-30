@@ -14,11 +14,9 @@ The **ImageProcessor CSV Manager** is a Node.js application designed to handle C
 
 #### **Clone the Repository**
 
-Clone the repository to your local machine:
-`git clone https://github.com/nishant1001/new.git`
+- Clone the repository to your local machine: `git clone https://github.com/nishant1001/new.git`
 
-After cloning, move into the repository's directory with the cd command:
-`cd new`
+- After cloning, move into the repository's directory with the cd command: `cd new`
 
 
 #### **Install Dependencies**
